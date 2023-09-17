@@ -55,6 +55,6 @@ public class Ravenclaw extends Hufflepuff{
                 "\nУм: " + mind +
                 " Мудрость: " + wisdom +
                 " Остроумие: " + wit +
-                " Творчество: " + creation;
+                " Творчество : " + creation;
     }
 }
