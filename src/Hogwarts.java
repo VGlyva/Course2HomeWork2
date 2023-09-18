@@ -12,17 +12,17 @@ public class Hogwarts {
 
     public void studEquals(Hogwarts hg) {
         if (this.faculty.equals(hg.faculty)) {
-            studEqualsHogwarts(hg);
-        } else {
             studEqualsPersonal(hg);
+        } else {
+            studEqualsHogwarts(hg);
         }
     }
 
     public void studEqualsHogwarts(Hogwarts hg) {
         if (this.getSumPowerMagic() > hg.getSumPowerMagic()) {
-            System.out.println(this.getName() + " " + this.surname + " обладает большей силой магии ,чем " + hg.getName() + " " + hg.surname);
+            System.out.println(this.getName() + " " + this.surname + "  обладает большей силой магии ,чем " + hg.getName() + " " + hg.surname);
         } else {
-            System.out.println(hg.getName() + " " + this.surname + " обладает большей силой магии ,чем " + this.getName() + " " + hg.surname);
+            System.out.println(hg.getName() + " " + hg.surname + " обладает большей силой магии ,чем " + this.getName() + " " + this.surname);
         }
     }
 

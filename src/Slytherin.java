@@ -64,7 +64,7 @@ public class Slytherin extends Hogwarts {
                 "\nХитрость: " + cunning +
                 " Решительность: " + determination +
                 " Амбициозность: " + ambition +
-                "\nНаходчивость: " + resourcefulness +
+                "\nНаходчивость : " + resourcefulness +
                 " Жажда Власти: " + lustForPower;
     }
 }
